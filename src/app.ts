@@ -21,7 +21,7 @@ app.use(cors({ origin: ['http://localhost:5173','http://localhost:3000'], creden
 app.use('/api/v1', router);
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hi Next Level Developer !');
+  res.send('Welcome to blood donation api !');
 });
 
 app.use(globalErrorHandler);
