@@ -21,7 +21,7 @@ app.use((0, cors_1.default)({ origin: ['http://localhost:5173', 'http://localhos
 // application routes
 app.use('/api/v1', routes_1.default);
 app.get('/', (req, res) => {
-    res.send('Hi Next Level Developer !');
+    res.send('Welcome to blood donation api !');
 });
 app.use(globalErrorhandler_1.default);
 //Not Found
